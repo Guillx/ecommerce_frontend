@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import SectionTitle from "../../../../commons/section-title/SectionTitle";
 import { products } from "./data/data";
 import Product from "./Product";
 
@@ -14,7 +13,8 @@ const Container = styled.div`
   justify-content: space-between;
 `;
 
-function Products() {
+function Products({ category, filters, sort }) {
+  console.log(category, filters, sort);
   return (
     <Main>
       <Container>

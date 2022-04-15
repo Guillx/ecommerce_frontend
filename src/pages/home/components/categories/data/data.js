@@ -10,35 +10,41 @@ export const categories = [
     id: 1,
     img: `${ImageCategorie1}`,
     title: "Funkos",
+    category: "funkos",
   },
 
   {
     id: 2,
     img: `${ImageCategorie2}`,
     title: "Ropa",
+    category: "clothes",
   },
 
   {
     id: 3,
     img: `${ImageCategorie3}`,
     title: "Decoración",
+    category: "decoration",
   },
 
   {
     id: 4,
     img: `${ImageCategorie4}`,
     title: "Complementos",
+    category: "complements",
   },
 
   {
     id: 5,
     img: `${ImageCategorie5}`,
     title: "Juegos",
+    category: "games",
   },
 
   {
     id: 6,
     img: `${ImageCategorie6}`,
     title: "Lectura y cine",
+    category: "books-cinema",
   },
 ];
